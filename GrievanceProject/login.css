@@ -1,0 +1,216 @@
+
+
+body
+{
+    display: flex;
+    width: 90rem;
+    padding-bottom: 19.125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.5rem;
+
+    background: rgba(72, 235, 195, 0.95);;   
+}
+
+.contentframe
+{
+    display: flex;
+    margin-top: 8.62rem;
+    width: 66.5625rem;
+    height: 36.25rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6.125rem;
+
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.60);
+}
+
+.leftframe
+{
+    width: 21.625rem;
+    height: 28.125rem;
+    flex-shrink: 0;
+}
+
+.heading
+{
+    display: flex;
+    width: 21.625rem;
+    height: 4.125rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.usernameframe
+{
+    position:absolute;
+    width: 21.625rem;
+    height: 6.375rem;
+    top: 18.88rem;
+    flex-shrink: 0;
+}
+
+.unhead
+{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.5rem;
+}
+
+.usernamefield
+{
+    width: 21.5rem;
+    height: 3.125rem;
+    margin-top: 0.81rem;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    flex-shrink: 0;
+
+    border-radius: 1.875rem;
+    border: 1px solid #2BAB83;
+    background: #FFF;
+
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.passwordframe
+{
+    position: absolute;
+    width: 21.5625rem;
+    height: 6.4375rem;
+    top: 27.31rem;
+    flex-shrink: 0;
+}
+
+.passhead
+{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.5rem;
+}
+
+.passfield
+{
+    width: 21.5625rem;
+    height: 3.125rem;
+    padding-left: 1.56rem;
+    padding-right: 3rem;
+    margin-top: 0.81rem;
+    flex-shrink: 0;
+
+    border-radius: 1.875rem;
+    border: 1px solid #2BAB83;
+    background: #FFF;
+
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.eye
+{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    left: 18.56rem;
+    top: 2.75rem;
+}
+
+.loginbutt
+{
+    position:absolute;
+    width: 10.3125rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    top: 36.73rem;
+    
+    color: #FFF;    
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-image: linear-gradient(90deg, #1DA684 0%, rgba(190, 220, 124, 0.99) 98.66%);
+    border-radius: 1.875rem;
+    border: 0;
+}
+
+.signupframe
+{
+    width: 10.3125rem;
+    height: 5.8125rem;
+    flex-shrink: 0;
+}
+
+.message
+{
+    position: absolute;
+    top: 35.3rem;
+    left: 31rem;
+
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.signupbutt
+{
+    position: absolute;
+    top: 36.7rem;
+    left: 30rem;
+    width: 10.3125rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+
+    border-radius: 1.875rem;
+    border: 1px solid #2BAB83;
+    background: rgba(255, 255, 255, 0.60);
+
+    color: #171414;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.loginimg
+{
+    width: 32.8125rem;
+    height: 36.25rem;
+    flex-shrink: 0;
+
+    border-radius: 1.25rem;
+}
