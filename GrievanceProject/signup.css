@@ -14,7 +14,7 @@ body
 {
     display: flex;
     margin-top: 8.62rem;
-    width: 66.5625rem;
+    width: 66.5rem;
     height: 36.25rem;
     justify-content: flex-end;
     align-items: center;
@@ -26,8 +26,9 @@ body
 
 .leftframe
 {
-    width: 21.625rem;
-    height: 28.125rem;
+    width: 21.5rem;
+    height: 36.25rem;
+    flex-shrink: 0;
 }
 
 .heading
@@ -38,6 +39,8 @@ body
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+    position: relative;
+    top: 1.25rem;
 
     color: #000;
     text-align: center;
@@ -48,33 +51,14 @@ body
     line-height: normal;
 }
 
-.usernameframe
-{
-    position:absolute;
-    width: 21.625rem;
-    height: 6.375rem;
-    top: 18.88rem;
-}
-
-.inputhead
-{
-    color: #000;
-    font-family: "Open Sans";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 0.5rem;
-}
-
 .inputfield
 {
     box-sizing: border-box;
     width: 21.5rem;
     height: 3.125rem;
     margin-top: 0.81rem;
-    padding-left: 1.56rem;
-    padding-right: 1.56rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     border-radius: 1.875rem;
     border: 1px solid #2BAB83;
@@ -88,12 +72,39 @@ body
     line-height: normal;
 }
 
+.inputhead
+{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.5rem;
+}
+
+.emailframe
+{
+    position: absolute;
+    top: 15.25rem;
+    width: 21.625rem;
+    height: 6.375rem;
+}
+
+.usernameframe
+{
+    position: absolute;
+    top: 22.88rem;
+    width: 21.5rem;
+    height: 6.375rem;
+}
+
 .passwordframe
 {
     position: absolute;
+    top: 30.5rem;
     width: 21.5rem;
-    height: 6.4375rem;
-    top: 27.31rem;
+    height: 6.4rem;
 }
 
 .eye
@@ -105,13 +116,12 @@ body
     top: -2.65rem;
 }
 
-.loginbutt
+.signupbutt
 {
     position:absolute;
     width: 10.3125rem;
     height: 2.5rem;
-    flex-shrink: 0;
-    top: 36.72rem;
+    top: 39.1rem;
     
     color: #FFF;    
     text-align: center;
@@ -125,10 +135,10 @@ body
     border: 0;
 }
 
-.signupframe
+.loginframe
 {
     position: absolute;
-    top: 35.7rem;
+    top: 38rem;
     left: 29.5rem;
     width: 10.3125rem;
     height: 5.8125rem;
@@ -136,18 +146,17 @@ body
 
 .message
 {
-    margin-bottom: 0.25rem;
-
     color: #000;
     font-family: "Open Sans";
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-bottom: 0.25rem;
     text-align: center;
 }
 
-.signupbutt
+.loginbutt
 {
     width: 10.3125rem;
     height: 2.5rem;
@@ -165,7 +174,7 @@ body
     line-height: normal;
 }
 
-.loginimg
+.signupimg
 {
     width: 32.8125rem;
     height: 36.25rem;

@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head> <link rel = "stylesheet" href="login.css"/></head>
+    <head> <link rel = "stylesheet" href="signup.css"/></head>
     <body>
         <div class="contentframe">
             
            <div class = "leftframe">
-                <div class="heading">Welcome!</div>
+                <div class="heading">Register!</div>
+
+                <div class = "emailframe">
+                    <div class = "inputhead">Email</div>
+                    <input type = "text" class = "inputfield" placeholder="Enter Email Id"/>
+                </div>
 
                 <div class = "usernameframe">
                     <div class = "inputhead">Username</div>
@@ -18,15 +23,15 @@
                     <img class = "eye" src = "assets/EyeIconForPassword.png"/>
                 </div>
 
-                <button class = "loginbutt">Log In</button>
+                <button class = "signupbutt">Sign Up</button>
 
-                <div class = "signupframe">
-                    <div class = "message">New User? Sign Up here...</div>
-                    <button class = "signupbutt" onclick="location.href='signup.html'">Sign Up</button>
+                <div class = "loginframe">
+                    <div class = "message">Already have an account? </div>
+                    <button class = "loginbutt" onclick="location.href='login.html'">Log In</button>
                 </div>
            </div>
 
-            <img class = "loginimg" src="assets/LogInStockImage.jpg"/>
+            <img class = "signupimg" src="assets/SignUp.jpg"/>
         
         </div>
     </body>
